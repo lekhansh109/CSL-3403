@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet"  type="text/css" href="style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>CSL</title>
+  </head>
+  <body>
+    <h1 style="color:#DD93E5  " class="text-uppercase" align="center"> Assignment </h1>
+	 <h2 style="color: #83C385   " class="text-lowercase" align="center">  THIS IS LOWERCASE </h2>
+    <button type="button" class="btn btn-success"><span>Learn More </span></button>
+  </body>
+  <style>
+  .btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: red;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+ 
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 2s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  </style>
+</html>
